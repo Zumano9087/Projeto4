@@ -1,0 +1,131 @@
+header {
+    padding: 20px;
+}
+
+.topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.menu-superior {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.campo-busca {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 0;
+}
+
+.campo-busca input {
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.lupa {
+    font-size: 22px;
+}
+
+.minha-lista {
+    color: white;
+    font-family: cursive;
+    margin: 0;
+}
+
+.categorias {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 20px;
+    color: white;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.icone-categoria {
+    font-size: 26px;
+}
+.lupa {
+    font-size: 22px;
+    cursor: pointer;
+}
+.categorias {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.icone-categoria {
+    font-size: 30px;
+    color: #674db6;
+}
+h1{
+    color: white;
+    display: flex;
+    font-family: cursive;
+    width: 200px;
+    height: 2px;
+    padding:10px;
+    font-size: 100px;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    justify-content: left;
+}
+.catalogo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 25px;
+    flex-wrap: wrap;
+    padding: 25px;
+    box-shadow: rgb(85, 83, 83);
+}
+.livros {
+    width: 300px;
+    background-color: rgb(243, 243, 243);
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 5px 20px 30px rgb(44, 37, 68);
+    transition: transform 0.5s ease, box-shadow 0.5s all;
+}
+.livros:hover {
+    transform: scale(1.05);
+    box-shadow: 5 8px 10px rgb(94, 75, 75);
+}
+.livros img {
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+}
+h2{
+    text-align: left;
+    align-items: center;
+    justify-content: left;
+    color: black;
+}
+body{
+    background: linear-gradient(109deg, #0829e29f , #5b5099, hwb(255 46% 9%));
+}
+.subtitulo {
+    text-align: left;
+    color: black;
+    margin-left: 20px;
+    font-size: 45px;
+    font-family:cursive;
+}
